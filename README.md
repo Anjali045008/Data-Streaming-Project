@@ -177,7 +177,8 @@ The data in the **customer_activity_dashboard** index was visualized using Kiban
 ---
 # Dashboard Analysis 
 
-![Docker_Flink](https://github.com/user-attachments/assets/61aeb703-c2c9-48c0-b348-7c5e9728c673)
+![Docker_flink](https://github.com/user-attachments/assets/b49a9c6a-4386-402a-aa23-91be82bb1fb1)
+
 
 ---
 
@@ -186,98 +187,83 @@ The data in the **customer_activity_dashboard** index was visualized using Kiban
 https://github.com/user-attachments/assets/f00146fd-c65c-480a-a088-150ac7b00c50
 
 ---
+### Key Features of the Dashboard:
+1. **Customer Profile Metrics**:
+   - Average active years of customers: **33 years**.
+   - Average FICO score: **581.111**.
+   - Average churn propensity: **0.575**.
 
-## Key Features of the Dashboard
+2. **Activity Type Distribution**:
+   - Representation of customer activities segmented into **new account, web open**, and **mobile open**.
 
-1. **Average Active Years of Customers**:  
-   - The average active years for customers is 33 years, indicating a longstanding customer base.
+3. **Demographic Insights**:
+   - Income distribution and gender-wise income trends.
+   - Customer demographics: Proportion of males and females.
 
-2. **FICO Score Profile**:  
-   - The average FICO score of customers is 581.111. This shows a relatively moderate credit profile for most customers.
+4. **Top Customers by Income**:
+   - Highlights the top 10 customers based on income.
 
-3. **Average Churn Propensity**:  
-   - The average propensity to churn is 0.575, suggesting that about half of the customers are at risk of churn.
+5. **Activity and Retention**:
+   - Timeline of activity types and their respective average active years.
+   - Churn propensity analyzed by activity type.
 
-4. **Churn Propensity vs. Activity Type**:  
-   - Customers with new accounts have the highest propensity to churn compared to those with web or mobile interactions. This indicates a need for better onboarding and engagement strategies.
+6. **Gender and Churn**:
+   - Gender-wise propensity to churn.
+   - Churn propensity linked with FICO scores.
 
-5. **Customer Demographics**:  
-   - The gender distribution is fairly balanced, with slightly more female customers than male customers.
-
-6. **Activity Type Distribution**:  
-   - The most common activity type is mobile interactions, followed by web and new accounts.
-
-7. **Income Levels by Gender**:  
-   - Male customers generally have a higher average income compared to female customers.
-
-8. **Top 10 Customers by Income**:  
-   - The top customers based on income include Gates, Chico, Winfred, Lily, Gill, Livia, Carmetta, and Em, with Gates leading significantly.
-
-9. **Customer Activity Type Timeline**:  
-   - Web interactions tend to span a broader range of active years compared to mobile and new accounts, indicating a more stable usage pattern.
-
-10. **Oldest Clients**:  
-    - The oldest clients (in terms of active years) include Lily, Gill, Em, Chico, and others, with Lily having the longest engagement.
-
-11. **Gender Distribution by Income and Activity Type**:  
-    - Female customers with new accounts show a higher average income compared to male counterparts, while male customers dominate income levels in web and mobile interactions.
+7. **Income and Churn**:
+   - Relationship between average income and churn propensity.
 
 ---
 
-## Insights Derived from the Dashboard
+### Insights Derived from the Dashboard:
+1. **Activity Type and Churn**:
+   - Customers with **new accounts** exhibit the highest churn propensity compared to other activity types like **web open** and **mobile open**.
 
-1. **Churn Management**:  
-   - High churn rates among new account holders highlight the importance of a robust onboarding strategy. Personalized engagement campaigns and incentives may help retain these customers.
+2. **Income and Gender Distribution**:
+   - **Females** have a higher average income compared to males.
+   - Gender distribution in income shows disparity with significant female dominance in higher income brackets.
 
-2. **Credit Profile Improvement**:  
-   - The moderate FICO score of customers suggests an opportunity to offer financial literacy programs or credit-building initiatives.
+3. **Top Earners**:
+   - The top customers (e.g., Gates, Em) have income levels exceeding **₹300,000**, indicating a skew in income distribution.
 
-3. **Gender-Specific Strategies**:  
-   - Higher income among male customers provides scope for premium product offerings, while targeted marketing campaigns for female customers can help balance the income disparity.
+4. **Churn Trends**:
+   - Lower FICO scores correlate with higher churn propensity.
+   - Females are more likely to churn compared to males.
 
-4. **Income-Based Targeting**:  
-   - Gates, Chico, and other high-income customers can be leveraged for premium offerings, loyalty programs, or exclusive benefits.
-
-5. **Activity Trends**:  
-   - Mobile interactions dominate activity types, emphasizing the importance of mobile-friendly platforms and personalized push notifications.
-
-6. **Retention of Long-Standing Customers**:  
-   - Engaging the oldest clients with loyalty programs or exclusive benefits can ensure continued patronage and advocacy.
-
-7. **Balanced Demographics**:  
-   - The almost equal gender distribution allows for balanced marketing strategies tailored to both genders.  
+5. **Retention and Activity**:
+   - Customers associated with **web open** activity type have a longer active period compared to other activity types.
 
 ---
+### **Insights on Propensity to Churn**:
+1. **High-Risk Profiles**:
+   - Customers with lower FICO scores (<500) and those with a **new account** activity type are at the greatest risk of churn.
+   - Females have a higher unique count of churn propensity compared to males, indicating a need for gender-specific retention strategies.
 
-## **Managerial Insights**
+2. **Income and Churn Correlation**:
+   - Higher income customers show a relatively low churn propensity, suggesting that higher earnings can be a stabilizing factor.
 
-### 1. **Customer Retention and Churn Reduction**
-   - **Insight**: Customers with new accounts have the highest propensity to churn.  
-   - **Action**: Implement personalized onboarding processes, customer education programs, and proactive support for new account holders to reduce churn.  
+3. **Actionable Insights**:
+   - Develop educational campaigns or credit score improvement programs to retain customers with **low FICO scores**.
+   - Increase engagement and enhance the customer journey for new account holders within the first few months of onboarding.
+  ---
+### **Managerial Insights**:
+1. **Retention Strategies**:
+   - Focus retention efforts on **new account customers**, as they are at the highest risk of churn.
+   - Introduce targeted programs or incentives for customers with **low FICO scores** to improve retention.
 
-### 2. **Mobile Dominance in Activity**  
-   - **Insight**: Mobile interactions are the most dominant activity type.  
-   - **Action**: Prioritize investment in mobile app functionality, performance optimization, and personalized push notifications to enhance customer satisfaction.
+2. **Segmented Marketing**:
+   - Design tailored marketing strategies for **high-income female customers** to leverage their income potential and reduce churn.
 
-### 3. **High-Value Customer Engagement**
-   - **Insight**: Gates, Chico, and other high-income customers contribute significantly to revenue.  
-   - **Action**: Create exclusive loyalty programs and premium services targeted toward these high-value customers to maximize lifetime value.
+3. **Activity Optimization**:
+   - Promote the use of **web-based activities**, as customers engaged through this channel tend to have longer active years.
 
-### 4. **Gender-Based Targeting**
-   - **Insight**: Male customers generally have higher incomes but females are equally engaged.  
-   - **Action**: Develop gender-specific marketing strategies—focus on premium product upselling for males and personalized campaigns for female customers.
+4. **Data-Driven Interventions**:
+   - Leverage FICO score data to proactively address customers at risk of churn.
+   - Focus on demographic data to fine-tune customer engagement approaches.
 
-### 5. **Retention of Long-Standing Customers**
-   - **Insight**: Older customers like Lily and Gill have remained loyal for extended periods.  
-   - **Action**: Strengthen relationships with longstanding customers through loyalty rewards, appreciation events, and testimonials to turn them into brand advocates.
-
-### 6. **Opportunity for FICO Score-Driven Services**
-   - **Insight**: The average FICO score of 581.111 shows room for financial improvement among customers.  
-   - **Action**: Offer credit-building tools, financial management education, and credit-related products to improve customer financial profiles.
-
-### 7. **Cross-Selling Opportunities**
-   - **Insight**: Web interactions span across a broader active period, indicating stable usage patterns.  
-   - **Action**: Leverage web users for cross-selling opportunities such as subscriptions or premium memberships.
+5. **Customer Prioritization**:
+   - High-income earners like Gates and Em should be prioritized for premium services or loyalty programs.
 
 ---
 
